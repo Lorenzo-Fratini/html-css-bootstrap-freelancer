@@ -1,0 +1,105 @@
+/* page rule */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap');
+
+body {
+  font-family: "lato";
+}
+
+section {
+  margin: 30px 0 0 0;
+}
+
+.first-background {
+  background: #2c3e50;
+}
+
+.second-background {
+  background: #1abc9c;
+}
+
+.page-title {
+    width: 100%;
+    /* debug */
+    height: 70px;
+    background: red;
+}
+
+/* header rule */
+nav {
+  width: 100%;
+  background: #2c3e50;
+  /* debug */
+  height: 70px;
+}
+/* debug */
+.header-test {
+  width: 100%;
+  height: 70px;
+  background: yellow;
+}
+/* /debug */
+
+/* main rule */
+.jumbo {
+  width: 100%;
+  /* debug */
+  height: 500px;
+}
+
+/* debug */
+.jumbo-text {
+  width: 100%;
+  height: 500px;
+  background: blue;
+}
+/* /debug */
+
+.portfolio-box-cont {
+  width: 100%;
+}
+
+/* debug */
+.portfolio-box-test {
+  width: 100%;
+  height: 80px;
+  border: 1px solid #000;
+}
+
+.about-cont {
+  width: 100%;
+  /* debug */
+  height: 100px;
+  border: 1px solid black;
+}
+
+.form-cont {
+  width: 100%;
+  /* debug */
+  height: 300px;
+  border: 1px solid #000;
+}
+
+/* footer */
+footer {
+  /* debug */
+  margin-top: 30px;
+}
+
+.footer-item {
+  width: 100%;
+  /* debug */
+  height: 150px;
+  border: 1px solid #fff;
+}
+
+@media (max-width: @screen-xs-max) {
+
+}
+
+@media (min-width: @screen-md-min) and (max-width: @screen-md-max) {
+
+}
+
+@media (min-width: @screen-lg-min) {
+
+}
