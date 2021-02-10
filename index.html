@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
     <title>Bootstrap Freelancer</title>
@@ -11,24 +12,25 @@
     <!-- header -->
     <header>
       <nav class="first-background">
-        <div class="container-fluid">
+        <div class="container">
           <div class="row">
-            <div class="col-xs-12 col-md-offset-1 col-md-10 col-lg-offset-2 col-lg-8">
-              <div class="row">
-                <div class="col-xs-5 col-md-3">
-                  <!-- debug -->
-                  <div class="header-test">
-
-                  </div>
-                  <!-- /debug -->
-                </div>
-                <div class="col-xs-offset-5 col-xs-2 col-md-3 col-md-offset-6">
-                  <!-- debug -->
-                  <div class="header-test">
-
-                  </div>
-                  <!-- /debug -->
-                </div>
+            <div class="col-xs-6 col-md-4 col-lg-4">
+              <!-- logo -->
+              <div class="logo-cont">
+                <a href="#">START BOOTSTRAP</a>
+              </div>
+            </div>
+            <div class="col-xs-offset-4 col-xs-2 col-md-offset-3 col-md-5 col-lg-offset-4 col-lg-4">
+              <!-- nav menu -->
+              <div class="nav-menu">
+                <ul>
+                  <li><a href="#">PORTFOLIO</a></li>
+                  <li><a href="#">ABOUT</a></li>
+                  <li><a href="#">CONTACT</a></li>
+                </ul>
+              </div>
+              <div class="nav-icon">
+                <i class="fas fa-bars"></i>
               </div>
             </div>
           </div>
@@ -39,29 +41,53 @@
     <main>
       <!-- jumbo -->
       <section class="jumbo second-background">
-        <div class="container-fluid">
+        <div class="container">
           <div class="row">
             <div class="col-xs-12 col-md-offset-2 col-md-8">
-              <!-- debug -->
-              <div class="jumbo-text">
-
+              <div class="title-cont">
+                <h1>START BOOTSTRAP</h1>
+                <div class="divider-cont">
+                  <div class="row">
+                    <div class="divider-box">
+                      <div class="divider-row"></div>
+                      <div class="divider-icon">
+                        <i class="fas fa-star"></i>
+                      </div>
+                      <div class="divider-row"></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="jumbo-text">
+                  GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR
+                </div>
               </div>
-              <!-- /debug -->
             </div>
           </div>
         </div>
       </section>
       <!-- portfolio -->
       <section>
-        <div class="conainer-fluid">
-          <!-- titolo -->
+        <div class="conainer">
           <div class="row">
-            <div class="col-xs-offset-3 col-xs-6 col-md-offset-4 col-md-4">
-              <div class="page-title">
-
+            <div class="col-xs-12 col-md-offset-2 col-md-8">
+              <div class="title-cont">
+                <h2>PORTFOLIO</h2>
+                <div class="divider-cont">
+                  <div class="row">
+                    <div class="divider-box">
+                      <div class="divider-row-alt"></div>
+                      <div class="divider-icon-alt">
+                        <i class="fas fa-star"></i>
+                      </div>
+                      <div class="divider-row-alt"></div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
+        </div>
+        <div class="container">
           <!-- blocchi -->
           <div class="row">
             <div class="col-xs-12 col-md-offset-1 col-md-10">
@@ -75,6 +101,7 @@
                       </div>
                       <!-- /debug -->
                     </div>
+                    <div class="clearfix visible-xs-block"></div>
                     <div class="col-xs-12 col-md-6 col-lg-4">
                       <!-- debug -->
                       <div class="portfolio-box-test">
@@ -82,6 +109,7 @@
                       </div>
                       <!-- /debug -->
                     </div>
+                    <div class="clearfix visible-xs-block"></div>
                     <div class="col-xs-12 col-md-6 col-lg-4">
                       <!-- debug -->
                       <div class="portfolio-box-test">
@@ -89,6 +117,7 @@
                       </div>
                       <!-- /debug -->
                     </div>
+                    <div class="clearfix visible-xs-block"></div>
                     <div class="col-xs-12 col-md-6 col-lg-4">
                       <!-- debug -->
                       <div class="portfolio-box-test">
@@ -96,6 +125,7 @@
                       </div>
                       <!-- /debug -->
                     </div>
+                    <div class="clearfix visible-xs-block"></div>
                     <div class="col-xs-12 col-md-6 col-lg-4">
                       <!-- debug -->
                       <div class="portfolio-box-test">
@@ -103,6 +133,7 @@
                       </div>
                       <!-- /debug -->
                     </div>
+                    <div class="clearfix visible-xs-block"></div>
                     <div class="col-xs-12 col-md-6 col-lg-4">
                       <!-- debug -->
                       <div class="portfolio-box-test">
@@ -110,6 +141,7 @@
                       </div>
                       <!-- /debug -->
                     </div>
+                    <div class="clearfix visible-xs-block"></div>
                   </div>
                 </div>
               </div>
@@ -119,15 +151,27 @@
       </section>
       <!-- about -->
       <section class="about second-background">
-        <div class="conainer-fluid">
-          <!-- title -->
+        <div class="container">
           <div class="row">
-            <div class="col-xs-offset-3 col-xs-6 col-md-offset-4 col-md-4">
-              <div class="page-title">
-
+            <div class="col-xs-12 col-md-offset-2 col-md-8">
+              <div class="title-cont">
+                <h2>ABOUT</h2>
+                <div class="divider-cont">
+                  <div class="row">
+                    <div class="divider-box">
+                      <div class="divider-row"></div>
+                      <div class="divider-icon">
+                        <i class="fas fa-star"></i>
+                      </div>
+                      <div class="divider-row"></div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
+        </div>
+        <div class="container">
           <!-- content -->
           <div class="row">
             <div class="col-xs-offset-2 col-xs-8 col-md-offset-2 col-md-4">
@@ -149,15 +193,27 @@
       </section>
       <!-- contact me -->
       <section class="contact-me">
-        <div class="container-fluid">
-          <!-- title -->
+        <div class="container">
           <div class="row">
-            <div class="col-xs-offset-3 col-xs-6 col-md-offset-4 col-md-4">
-              <div class="page-title">
-
+            <div class="col-xs-12 col-md-offset-2 col-md-8">
+              <div class="title-cont">
+                <h2>CONTACT ME</h2>
+                <div class="divider-cont">
+                  <div class="row">
+                    <div class="divider-box">
+                      <div class="divider-row-alt"></div>
+                      <div class="divider-icon-alt">
+                        <i class="fas fa-star"></i>
+                      </div>
+                      <div class="divider-row-alt"></div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
+        </div>
+        <div class="container">
           <div class="row">
             <div class="col-xs-offset-2 col-xs-8">
               <div class="form-cont">
