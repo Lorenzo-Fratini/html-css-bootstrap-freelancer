@@ -17,8 +17,11 @@ body {
   margin: 50px 0 0 0;
 }
 
-.highlighted {
-  color: #1abc9c;;
+.fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
 }
 
 .first-background {
@@ -32,7 +35,8 @@ body {
 }
 
 /* header rule */
-.nav-height {
+.nav-prop {
+  width: 100%;
   height: 80px;
 }
 
@@ -75,6 +79,7 @@ body {
 /* main rule */
 .jumbo {
   width: 100%;
+  margin: 80px 0 0 0;
 }
 
 .jumbo-image {
@@ -153,12 +158,13 @@ body {
 
 .portfolio-box {
   width: 100%;
-  height: 200px;
+  height: 230px;
   border-radius: 5px;
   margin: 30px 0 0 0;
   position: relative;
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 }
 
 .port-box-margin-b {
@@ -191,7 +197,7 @@ body {
 
 .hidden-layover {
   width: 100%;
-  height: 200px;
+  height: 230px;
   background: rgba(26, 188, 156, 0.8);
   border-radius: 5px;
   display: none;
@@ -260,7 +266,7 @@ footer {
   font-size: 2rem;
 }
 
-.footer-item a {
+.brands a {
   width: 40px;
   height: 40px;
   display: inline-block;;
@@ -272,20 +278,30 @@ footer {
   font-size: 2rem;
 }
 
-.footer-item a:hover {
+.brands a:hover {
   background: #fff;
   color: #2c3e50;
 }
 
-.footer-item a:nth-child(1n+2) {
+.brands a:nth-child(1n+2) {
   margin: 0 0 0 10px;
+}
+
+.highlighted {
+  color: #1abc9c;
+  text-decoration: none;
+}
+
+.highlighted:hover {
+  color: #117964;
+  text-decoration: underline;
 }
 
 .footer-copy {
   background: #1a252f;
   height: 70px;
   line-height: 70px;
-  text-align: center
+  text-align: center;
 }
 
 /* media phone */
@@ -297,11 +313,12 @@ footer {
   .nav-icon {
     width: 45px;
     height: 30px;
-    margin: 25px 0;
+    margin: 25px 0 0 45px;
     border: 2px solid #fff;
     border-radius: 5px;
     text-align: center;
     padding: 3px;
+    cursor: pointer;
   }
 
   .nav-icon i {
@@ -338,6 +355,13 @@ footer {
     margin-bottom: 40px;
   }
 
+  .portfolio-box {
+    height: 280px;
+  }
+
+  .hidden-layover {
+    height: 280px;
+  }
 }
 
 /* media desktop */
